@@ -77,3 +77,8 @@ rails g controller Pages home terms privacy
 git add .
 git commit -m "feat:(Controller) Page and Views: home terms privacy"
 rails s -b 0.0.0.0
+git add .
+git commit -m "feat:(Style) plantilla bootstrap add"
+git push -u origin feat/staticPage
+
+
