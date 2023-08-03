@@ -45,5 +45,21 @@ Things you may want to cover:
 * Enlace
 * Foto 
 
+# GIT Ramas
+* develop = Desarrollo -> Local
+* staging = QA -> Local - Nube
+* main = Produccion -> Nube
+* Nueva Rama: git branch feat/nombreRama Ej: git branch feat/staticPage
+* Moverse Rama: git checkout feat/staticPage
+
 rails new reforzamientoM4 -d postgresql && cd reforzamientoM4
 Configurar database.yml
+git add .
+git commit -m "First commit"
+rails db:create
+git remote add origin https://github.com/vicspeedy/reforzamientoM4.git
+git push -u origin main
+git branch feat/staticPage
+git checkout feat/staticPage
+rails g controller Pages home terms privacy
+
